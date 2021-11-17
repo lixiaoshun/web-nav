@@ -31,7 +31,7 @@ const App = () => {
   return <div className="body-content">
     <div className="sider">
       <div className="head-logo">
-        <img src={search} style={{ height: '48px', width: '90px', marginLeft: '20px' }} />
+        <img src={search} style={{ height: '48px', width: '48px', marginLeft: '20px' }} />
         <img src={logo} style={{ height: '48px', width: '90px', }} />
       </div>
       <MyMenu onClick={(e) => getHeadTitle(e)} />
