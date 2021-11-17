@@ -12,7 +12,7 @@
       },
       {
         "url": "https://juejin.im/timeline",
-        "icon": "https://b-gold-cdn.xitu.io/favicons/v2/favicon.ico",
+        "icon": "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6bdafd801c878b10edb5fed5d00969e9.svg",
         "name": "掘金",
         "desc": "前端社区",
         "disabled": false
@@ -221,6 +221,30 @@
     "item": [
       {
         "tag": "导航",
+        "url": "https://www.gaoding.com/introduction",
+        "icon": "https://st-gdx.dancf.com/assets/20190910-143541-210a.png",
+        "name": "稿定设计",
+        "desc": "稿定设计-海量版权素材在线设计神器",
+        "disabled": false
+      },
+      {
+        "tag": "导航",
+        "url": "https://huaban.com/",
+        "icon": "https://huaban.com/img/touch-icon-iphone.png",
+        "name": "花瓣",
+        "desc": "花瓣，陪你做生活的设计师",
+        "disabled": false
+      },
+      {
+        "tag": "导航",
+        "url": "https://sucai.gaoding.com/",
+        "icon": "https://st-gdx.dancf.com/assets/20190910-143541-210a.png",
+        "name": "稿定素材",
+        "desc": "稿定素材",
+        "disabled": false
+      },
+      {
+        "tag": "导航",
         "url": "https://www.seeseed.com/",
         "icon": "https://www.seeseed.com/favicon.png",
         "name": "seeseed",
@@ -254,7 +278,7 @@
       {
         "tag": "图标",
         "url": "https://www.iconfont.cn/",
-        "icon": "https://www.iconfont.cn/favicon.ico",
+        "icon": "https://img.alicdn.com/imgextra/i2/O1CN01ZyAlrn1MwaMhqz36G_!!6000000001499-73-tps-64-64.ico",
         "name": "iconfont 阿里图标库",
         "desc": "阿里图标库",
         "disabled": false
