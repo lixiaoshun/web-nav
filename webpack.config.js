@@ -5,7 +5,7 @@ module.exports = {
 
   output: {
     chunkFilename: "js/[name].js",
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './docs'),
     filename: '[name].js'
   },
   devServer: {
