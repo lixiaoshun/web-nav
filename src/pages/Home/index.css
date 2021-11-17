@@ -1,0 +1,68 @@
+/* import searchBut from '../../img/searchBtn.png'; */
+.row-g {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  /* font-size: 20px; */
+}
+
+.seach {
+  width: 100%;
+  margin:100px 54px 20px;
+}
+
+.block {
+  margin:0 54px ;
+}
+.seach-pre{
+    width: 61px;
+    height: 50px;
+    border: 1px solid #353535;
+    float: left;
+    background-color: white;
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.seach-input {
+  width:100%
+}
+/* input {
+  border: 0 none;
+  outline: none;
+} */
+#seach {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #353535;
+    border-right: 0 none;
+    font-size: 16px;
+    padding-left: 0;
+    color: #15120e;
+    border-left: 0;
+    outline:0;
+    padding: 0;
+}
+.sChoiceBtn:hover {
+  filter:grayscale(0%);
+  opacity:1;
+}
+.sChoiceBtn {
+    width: 20px;
+    height: 20px;
+    margin: 13px auto 0 auto;
+    cursor: pointer;
+    filter: grayscale(100%);
+    opacity: 0.2;
+}    
+.search-but {
+  width:61px;
+  height:50px;
+  background-color: rgb(252, 209, 51);
+  border:1px solid #353535;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-image: url(../../img/searchBtn.png);
+  background-repeat:no-repeat;
+  background-position:15px 13px;
+}

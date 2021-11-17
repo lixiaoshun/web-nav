@@ -1,0 +1,26 @@
+.search-result {
+  margin-top: 6px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.search-result ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+.search-result li{
+  line-height:40px;
+}
+
+.s-result-title {
+  padding-left:40px
+}
+[class*=s-result-] {
+  display:inline-block;
+  margin-right:8px;
+}
+
+.s-result-url {
+  color:#2e96ff
+}

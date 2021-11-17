@@ -1,0 +1,19 @@
+.searchTypeM {
+  background: #fff;
+  width: auto;
+  margin-top: 1px;
+  z-index: 41;
+  position: absolute;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+}
+
+.m-content {
+  width: 150px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+.m-content:hover {
+  background:#f0f0f0;
+}
