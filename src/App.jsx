@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from "react";
+import React, { useState } from "react";
 import ReactDOM from 'react-dom';
 import MyMenu from "./components/MyMenu/index.jsx";
 import Route from "./router/index.jsx";
@@ -7,7 +7,7 @@ import search from "./img/search.png";
 import './App.css';
 
 const App = () => {
-  const [headTitle,setHeadTitle] = useState("首页");
+  const [headTitle, setHeadTitle] = useState("首页");
   function getHeadTitle(page) {
     switch (page) {
       case "lean":
@@ -27,12 +27,12 @@ const App = () => {
         break;
     }
   }
-  
+
   return <div className="body-content">
     <div className="sider">
       <div className="head-logo">
-        <img src={search} style={{ height: '48px', width: '48px', marginLeft: '20px' }} />
-        <img src={logo} style={{ height: '48px', width: '90px', }} />
+        <img className="logo-img" src={search} />
+        <img className="logo-name" src={logo} />
       </div>
       <MyMenu onClick={(e) => getHeadTitle(e)} />
     </div>

@@ -1,5 +1,4 @@
 import React from "react";
-// import { Router, Route, Link } from 'react-router'
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from "../pages/Home/index.jsx";
 import Classify from "../pages/Classify/index.jsx";

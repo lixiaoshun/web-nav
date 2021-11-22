@@ -46,7 +46,6 @@ export default function () {
         setSearchDatas(res.Suggests)
       })
     }
-    
     return 
   }
 
@@ -81,6 +80,7 @@ export default function () {
             data={searchEngine} 
             visible={searchTypeModal} 
             onClick={(type) => changeSearchType(type)}
+            close={() => setSeatchTypeModal(false)}
           />
         </div>
         {/* <SuggestModal data={searchDatas} /> */}
