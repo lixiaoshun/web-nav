@@ -1,27 +1,20 @@
 
-import React, { useEffect, useRef, useCallback } from "react";
+import React, { useEffect, useRef, useCallback, useState } from "react";
+import useAddEventListener from "../../../../components/MyHooks/useAddEventListener.js";
 import "./index.css";
+
 export default function ({
   data,
   visible,
   onClick,
   close
 }) {
-  const refSearchType = useRef(null);
+  const [refSearchType, vis] = useAddEventListener(visible,{ isCapture:true})
   useEffect(() => {
-    if (visible) {
-      document.addEventListener('click', judgeState, true)
-    }
-    return ()=>document.removeEventListener('click', judgeState,true) //销毁阶段
-  }, [visible])
-
-  const judgeState = useCallback((e) => {
-    let tag = refSearchType.current.contains(e.target)
-    if (!tag) {
-      document.removeEventListener('click', judgeState, true)
+    if(!vis){
       close()
     }
-  }, [])
+  }, [vis])
 
   return <div
     ref={refSearchType}
